@@ -1,0 +1,8 @@
+nome = input("Digite o nome da crypto: ")
+var = int(input("Qual a variação percentual da moeda nas últimas 24h ? "))
+if var >= 0 and var > 10:
+    print("Alto Relevante")
+elif var <0 and var < 10:
+    print("Correção forte")
+else:
+    print("Estabilidade")
